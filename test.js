@@ -1,7 +1,7 @@
 import express from "express";
 import http from "http"
 
-const app = express();
+// const app = express();
 
 app.get("/",(req,res)=>res.send("Welcome to Express App."));
 
